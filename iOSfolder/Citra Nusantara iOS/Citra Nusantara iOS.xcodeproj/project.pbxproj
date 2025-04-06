@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		74AB51672DA203F70018DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AB51512DA203F60018DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AB51582DA203F60018DF70;
+			remoteInfo = "Citra Nusantara iOS";
+		};
+		74AB51712DA203F70018DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AB51512DA203F60018DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AB51582DA203F60018DF70;
+			remoteInfo = "Citra Nusantara iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74AB51592DA203F60018DF70 /* Citra Nusantara iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citra Nusantara iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AB51662DA203F70018DF70 /* Citra Nusantara iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citra Nusantara iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AB51702DA203F70018DF70 /* Citra Nusantara iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citra Nusantara iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		74AB515B2DA203F60018DF70 /* Citra Nusantara iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Citra Nusantara iOS";
+			sourceTree = "<group>";
+		};
+		74AB51692DA203F70018DF70 /* Citra Nusantara iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Citra Nusantara iOSTests";
+			sourceTree = "<group>";
+		};
+		74AB51732DA203F70018DF70 /* Citra Nusantara iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Citra Nusantara iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AB51562DA203F60018DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB51632DA203F70018DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB516D2DA203F70018DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AB51502DA203F60018DF70 = {
+			isa = PBXGroup;
+			children = (
+				74AB515B2DA203F60018DF70 /* Citra Nusantara iOS */,
+				74AB51692DA203F70018DF70 /* Citra Nusantara iOSTests */,
+				74AB51732DA203F70018DF70 /* Citra Nusantara iOSUITests */,
+				74AB515A2DA203F60018DF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74AB515A2DA203F60018DF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AB51592DA203F60018DF70 /* Citra Nusantara iOS.app */,
+				74AB51662DA203F70018DF70 /* Citra Nusantara iOSTests.xctest */,
+				74AB51702DA203F70018DF70 /* Citra Nusantara iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AB51582DA203F60018DF70 /* Citra Nusantara iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB517A2DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOS" */;
+			buildPhases = (
+				74AB51552DA203F60018DF70 /* Sources */,
+				74AB51562DA203F60018DF70 /* Frameworks */,
+				74AB51572DA203F60018DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				74AB515B2DA203F60018DF70 /* Citra Nusantara iOS */,
+			);
+			name = "Citra Nusantara iOS";
+			packageProductDependencies = (
+			);
+			productName = "Citra Nusantara iOS";
+			productReference = 74AB51592DA203F60018DF70 /* Citra Nusantara iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74AB51652DA203F70018DF70 /* Citra Nusantara iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB517D2DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOSTests" */;
+			buildPhases = (
+				74AB51622DA203F70018DF70 /* Sources */,
+				74AB51632DA203F70018DF70 /* Frameworks */,
+				74AB51642DA203F70018DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AB51682DA203F70018DF70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				74AB51692DA203F70018DF70 /* Citra Nusantara iOSTests */,
+			);
+			name = "Citra Nusantara iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "Citra Nusantara iOSTests";
+			productReference = 74AB51662DA203F70018DF70 /* Citra Nusantara iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74AB516F2DA203F70018DF70 /* Citra Nusantara iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB51802DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOSUITests" */;
+			buildPhases = (
+				74AB516C2DA203F70018DF70 /* Sources */,
+				74AB516D2DA203F70018DF70 /* Frameworks */,
+				74AB516E2DA203F70018DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AB51722DA203F70018DF70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				74AB51732DA203F70018DF70 /* Citra Nusantara iOSUITests */,
+			);
+			name = "Citra Nusantara iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Citra Nusantara iOSUITests";
+			productReference = 74AB51702DA203F70018DF70 /* Citra Nusantara iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AB51512DA203F60018DF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					74AB51582DA203F60018DF70 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					74AB51652DA203F70018DF70 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 74AB51582DA203F60018DF70;
+					};
+					74AB516F2DA203F70018DF70 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 74AB51582DA203F60018DF70;
+					};
+				};
+			};
+			buildConfigurationList = 74AB51542DA203F60018DF70 /* Build configuration list for PBXProject "Citra Nusantara iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AB51502DA203F60018DF70;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 74AB515A2DA203F60018DF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AB51582DA203F60018DF70 /* Citra Nusantara iOS */,
+				74AB51652DA203F70018DF70 /* Citra Nusantara iOSTests */,
+				74AB516F2DA203F70018DF70 /* Citra Nusantara iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AB51572DA203F60018DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB51642DA203F70018DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB516E2DA203F70018DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AB51552DA203F60018DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB51622DA203F70018DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB516C2DA203F70018DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74AB51682DA203F70018DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AB51582DA203F60018DF70 /* Citra Nusantara iOS */;
+			targetProxy = 74AB51672DA203F70018DF70 /* PBXContainerItemProxy */;
+		};
+		74AB51722DA203F70018DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AB51582DA203F60018DF70 /* Citra Nusantara iOS */;
+			targetProxy = 74AB51712DA203F70018DF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74AB51782DA203F70018DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74AB51792DA203F70018DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AB517B2DA203F70018DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74AB517C2DA203F70018DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74AB517E2DA203F70018DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citra Nusantara iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Citra Nusantara iOS";
+			};
+			name = Debug;
+		};
+		74AB517F2DA203F70018DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citra Nusantara iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Citra Nusantara iOS";
+			};
+			name = Release;
+		};
+		74AB51812DA203F70018DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Citra Nusantara iOS";
+			};
+			name = Debug;
+		};
+		74AB51822DA203F70018DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBSVPC75L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cahyul.Citra-Nusantara-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Citra Nusantara iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AB51542DA203F60018DF70 /* Build configuration list for PBXProject "Citra Nusantara iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB51782DA203F70018DF70 /* Debug */,
+				74AB51792DA203F70018DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB517A2DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB517B2DA203F70018DF70 /* Debug */,
+				74AB517C2DA203F70018DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB517D2DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB517E2DA203F70018DF70 /* Debug */,
+				74AB517F2DA203F70018DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB51802DA203F70018DF70 /* Build configuration list for PBXNativeTarget "Citra Nusantara iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB51812DA203F70018DF70 /* Debug */,
+				74AB51822DA203F70018DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AB51512DA203F60018DF70 /* Project object */;
+}
