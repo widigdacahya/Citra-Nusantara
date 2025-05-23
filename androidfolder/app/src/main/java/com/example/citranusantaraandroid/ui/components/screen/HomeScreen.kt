@@ -14,8 +14,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.citranusantaraandroid.data.local.ArticleData
 import com.example.citranusantaraandroid.data.local.CategoryItemData
 import com.example.citranusantaraandroid.data.local.FeaturedEventData
+import com.example.citranusantaraandroid.model.ArticleItem
 import com.example.citranusantaraandroid.model.CategoryItem
 import com.example.citranusantaraandroid.model.FeaturedEventItem
 import com.example.citranusantaraandroid.ui.components.CategoryCard
@@ -26,6 +28,7 @@ fun HomeScreen() {
 
     val featuredEventItem = FeaturedEventData.items
     val categoryItem = CategoryItemData.items
+    val articleItem = ArticleData.items
 
     Scaffold { paddingValues ->
         Column(
@@ -50,6 +53,14 @@ fun HomeScreen() {
                 onCategoryItemClick = { categoryId ->
                     println("eheheh ke click Item Category Id: $categoryId")
                 }
+            )
+            Spacer(modifier = Modifier.height(16.dp))
+            ArticleSection(
+                modifier = Modifier.padding(horizontal = 16.dp),
+                items = articleItem,
+                onArticleItemClick = { articleId ->
+                    println("Article hehe clicked on id $articleId")
+                },
             )
             Spacer(modifier = Modifier.height(24.dp))
         }
@@ -132,6 +143,35 @@ fun CategoryGrid(
                 } else {
                     Spacer(modifier = Modifier.weight(1f))
                 }
+            }
+        }
+    }
+}
+
+@Composable
+fun ArticleSection(
+    modifier: Modifier = Modifier,
+    items: List<ArticleItem>,
+    onArticleItemClick: (articleId: Int) -> Unit
+) {
+    Column(
+        modifier = modifier.fillMaxWidth()
+    ) {
+        Text(
+            text = "Artikel",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+
+        Column(
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            items.forEach { article ->
+                com.example.citranusantaraandroid.ui.components.ArticleItem(
+                    articleItem = article,
+                    onClick = { onArticleItemClick(article.id) }
+                )
             }
         }
     }
