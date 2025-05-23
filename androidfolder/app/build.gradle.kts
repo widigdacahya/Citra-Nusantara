@@ -57,6 +57,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // something juga diajdust di libs version
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
+
+    // biar icon lengkap, jgn lupa tambah di libs.version.toml
+    implementation(libs.androidx.compose.material.icons.core)
+    implementation(libs.androidx.compose.material.icons.extended)
+
 }

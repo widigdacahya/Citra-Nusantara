@@ -16,8 +16,8 @@ object ArticleData {
                 Artikel ini akan mengupas tuntas sejarah perkembangan Batik Kawung dari masa ke masa, menelusuri berbagai interpretasi filosofis yang melekat pada motifnya, serta mengamati bagaimana motif klasik ini terus beradaptasi dan menginspirasi para perancang mode modern. Dengan memahami lebih dalam tentang Batik Kawung, kita tidak hanya mengapresiasi keindahannya, tetapi juga menghargai warisan budaya leluhur yang tak ternilai harganya.
             """,
             date = "2025-04-28",
-            imageUrl = "https://example.com/images/article_kawung.jpg",
-            authorImageUrl = "https://example.com/images/author_dewi.jpg"
+            imageUrl = "https://budaya.jogjaprov.go.id/view_image/view/4254/Filosofi_batik_kawung.width-800.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1620613908146-bb9a8bbb7eca?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 2,
@@ -31,8 +31,8 @@ object ArticleData {
                 Artikel ini akan mengajak pembaca untuk menjelajahi lebih dalam tentang keunikan arsitektur Tongkonan, memahami filosofi di balik setiap detailnya, serta mengaitkannya dengan sistem sosial dan kepercayaan masyarakat Toraja. Dengan memahami Tongkonan, kita akan mendapatkan wawasan yang lebih kaya tentang kearifan lokal dan warisan budaya Indonesia yang sangat beragam.
             """,
             date = "2025-04-27",
-            imageUrl = "https://example.com/images/article_tongkonan.jpg",
-            authorImageUrl = "https://example.com/images/author_arya.jpg"
+            imageUrl = "https://disbudpar.torajautarakab.go.id/uploads/budaya/9c9301e6-c132-4037-a5e5-db1aa005b389.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1546567850-8a49d669d37a?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 3,
@@ -46,8 +46,8 @@ object ArticleData {
                 Artikel ini akan mengupas tuntas tentang misteri dan makna di balik ritual Topeng Hudoq, khususnya pada masyarakat Dayak Bahau dan Modang. Kita akan menelusuri asal-usul tradisi ini, memahami peran topeng dalam kepercayaan masyarakat, serta mengamati bagaimana ritual ini terus dilestarikan sebagai bagian penting dari идентичность budaya Dayak.
             """,
             date = "2025-04-26",
-            imageUrl = "https://example.com/images/article_hudoq.jpg",
-            authorImageUrl = "https://example.com/images/author_larasati.jpg"
+            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/0/06/Hudoq_mask.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1574297500578-afae55026ff3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 4,
@@ -61,8 +61,8 @@ object ArticleData {
                 Artikel ini akan mengajak pembaca untuk menyelami lebih dalam tentang sejarah perkembangan Gamelan Jawa, mengenali berbagai jenis alat musik yang membentuk orkestra ini, serta memahami makna filosofis yang terkandung dalam setiap композиция. Dengan mendengarkan dan memahami Gamelan, kita tidak hanya menikmati keindahan musiknya, tetapi juga menghargai kekayaan warisan seni dan budaya Indonesia yang tak ternilai harganya.
             """,
             date = "2025-04-25",
-            imageUrl = "https://example.com/images/article_gamelan.jpg",
-            authorImageUrl = "https://example.com/images/author_bambang.jpg"
+            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Traditional_indonesian_instruments02.jpg/1200px-Traditional_indonesian_instruments02.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1587512048899-e2e828bccfa0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 5,
@@ -76,8 +76,8 @@ object ArticleData {
                 Artikel ini akan mengupas tuntas tentang resep tradisional Sate Lilit Bali, berbagai variasi yang ada, serta filosofi di balik hidangan yang seringkali disajikan dalam upacara adat dan perayaan penting di Bali. Dengan memahami lebih dalam tentang Sate Lilit, kita tidak hanya menikmati kelezatannya tetapi juga menghargai kekayaan kuliner dan tradisi masyarakat Bali.
             """,
             date = "2025-04-24",
-            imageUrl = "https://example.com/images/article_sate_lilit.jpg",
-            authorImageUrl = "https://example.com/images/author_citra.jpg"
+            imageUrl = "https://awsimages.detik.net.id/community/media/visual/2020/09/17/sate-lilit-ayam-khas-bali-1.jpeg?w=600&q=90",
+            authorImageUrl = "https://images.unsplash.com/photo-1627777439175-a7876a47b87d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 6,
@@ -91,8 +91,8 @@ object ArticleData {
                 Artikel ini akan mengulas secara mendalam tentang sejarah perkembangan Tari Saman, menganalisis makna di balik setiap gerakan dan syairnya, serta mengamati bagaimana seni pertunjukan ini terus dilestarikan dan dikembangkan oleh masyarakat Aceh. Dengan memahami Tari Saman, kita tidak hanya mengagumi keindahannya tetapi juga menghargai kekayaan budaya Indonesia yang sangat beragam.
             """,
             date = "2025-04-23",
-            imageUrl = "https://example.com/images/article_saman.jpg",
-            authorImageUrl = "https://example.com/images/author_eko.jpg"
+            imageUrl = "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/05/07/SAMAN-1-2473186751.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1595345639192-5ae79fc1a715?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 7,
@@ -106,8 +106,8 @@ object ArticleData {
                 Artikel ini akan mengajak pembaca untuk memahami lebih dalam tentang sejarah, jenis-jenis, dan makna simbolis yang melekat pada Keris. Kita akan menelusuri bagaimana Keris tidak hanya menjadi bagian dari sejarah peperangan tetapi juga menjadi representasi dari идентичность budaya dan kearifan lokal masyarakat Indonesia.
             """,
             date = "2025-04-22",
-            imageUrl = "https://example.com/images/article_keris.jpg",
-            authorImageUrl = "https://example.com/images/author_farah.jpg"
+            imageUrl = "https://www.bali-artshop.de/WebRoot/Store9/Shops/63684478/64C8/D975/7505/8E71/D962/0A0C/6D11/5126/1.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1634707532472-00e23a3a5f43?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 8,
@@ -121,8 +121,8 @@ object ArticleData {
                 Artikel ini akan mengupas tuntas tentang makna filosofis dan spiritual di balik upacara Ngaben, menjelaskan setiap tahapan prosesi, serta mengamati bagaimana nilai-nilai кеберсамаан dan gotong royong tercermin dalam pelaksanaan upacara adat yang unik ini. Dengan memahami Ngaben, kita akan mendapatkan perspektif yang lebih dalam tentang kepercayaan dan tradisi masyarakat Bali.
             """,
             date = "2025-04-21",
-            imageUrl = "https://example.com/images/article_ngaben.jpg",
-            authorImageUrl = "https://example.com/images/author_gede.jpg"
+            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ubud_Cremation_Procession_1.jpg/1200px-Ubud_Cremation_Procession_1.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1634666498696-c68a92adc199?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 9,
@@ -136,8 +136,8 @@ object ArticleData {
                 Artikel ini akan mengisahkan kembali legenda Putri Mandalika secara lengkap, menjelaskan prosesi tradisi Bau Nyale, serta mengamati bagaimana cerita rakyat dan tradisi ini terus hidup dan menjadi bagian penting dari идентичность budaya masyarakat Lombok. Dengan memahami legenda dan tradisi ini, kita akan mengapresiasi kekayaan narasi dan kearifan lokal Indonesia.
             """,
             date = "2025-04-20",
-            imageUrl = "https://example.com/images/article_baunyale.jpg",
-            authorImageUrl = "https://example.com/images/author_hanafi.jpg"
+            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Berburu_Cacing_Laut.jpg/1200px-Berburu_Cacing_Laut.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1629719581652-bff2d1febf0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         ),
         ArticleItem(
             id = 10,
@@ -151,8 +151,8 @@ object ArticleData {
                 Artikel ini akan mengajak pembaca untuk menjelajahi keindahan dan makna di balik motif-motif Tenun Ikat Sumba, memahami proses pembuatannya yang традиционные, serta mengapresiasi peran penting kain tenun ini dalam upacara adat dan kehidupan sehari-hari masyarakat Sumba. Dengan memahami Tenun Ikat Sumba, kita tidak hanya mengagumi keindahannya tetapi juga menghargai kearifan lokal dan kekayaan budaya Indonesia bagian timur.
             """,
             date = "2025-04-19",
-            imageUrl = "https://example.com/images/article_tenun_sumba.jpg",
-            authorImageUrl = "https://example.com/images/author_irma.jpg"
+            imageUrl = "https://tripsumba.com/wp-content/uploads/2020/07/1EHKLJNxU0AAdA2h-e1600578392538.jpg",
+            authorImageUrl = "https://images.unsplash.com/photo-1597486248015-7e40cb624774?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         )
     )
 }
