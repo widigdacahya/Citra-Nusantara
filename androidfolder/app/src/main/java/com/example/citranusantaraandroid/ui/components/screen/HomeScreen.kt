@@ -1,6 +1,9 @@
 package com.example.citranusantaraandroid.ui.components.screen
 
 
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
@@ -11,6 +14,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -22,13 +26,17 @@ import com.example.citranusantaraandroid.model.CategoryItem
 import com.example.citranusantaraandroid.model.FeaturedEventItem
 import com.example.citranusantaraandroid.ui.components.CategoryCard
 import com.example.citranusantaraandroid.ui.components.FeaturedEventItemCard
+import androidx.core.net.toUri
+import androidx.navigation.NavController
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(navController: NavController) {
 
     val featuredEventItem = FeaturedEventData.items
     val categoryItem = CategoryItemData.items
     val articleItem = ArticleData.items
+
+    val context = LocalContext.current
 
     Scaffold { paddingValues ->
         Column(
@@ -42,8 +50,18 @@ fun HomeScreen() {
             Spacer(modifier = Modifier.height(20.dp))
             FeaturedEventCarousel(
                 items = featuredEventItem,
-                onFeaturedItemClick = { clickItemId ->
-                    println("eheheh ke click Item Featured Event Id: $clickItemId")
+                onFeaturedItemClick = { websiteURL ->
+                    if(!websiteURL.isNullOrBlank()) {
+                        val intent = Intent(Intent.ACTION_VIEW, websiteURL.toUri())
+                        try {
+                            context.startActivity(intent)
+                        } catch (e: Exception) {
+                            val errorMessage = "Failed link ${e.localizedMessage}"
+                            Toast.makeText(context, errorMessage, Toast.LENGTH_LONG).show()
+                        }
+                    } else {
+                        Toast.makeText(context, "No attached link", Toast.LENGTH_SHORT).show()
+                    }
                 }
             )
             Spacer(modifier = Modifier.height(20.dp))
@@ -59,7 +77,7 @@ fun HomeScreen() {
                 modifier = Modifier.padding(horizontal = 16.dp),
                 items = articleItem,
                 onArticleItemClick = { articleId ->
-                    println("Article hehe clicked on id $articleId")
+                    navController.navigate(Screen.ArticleDetailScreen.route + "/$articleId")
                 },
             )
             Spacer(modifier = Modifier.height(24.dp))
@@ -91,10 +109,8 @@ fun HeaderSection(
 @Composable
 fun FeaturedEventCarousel(
     items: List<FeaturedEventItem>,
-    onFeaturedItemClick: (itemId: Int) -> Unit
+    onFeaturedItemClick: (websiteUrl: String?) -> Unit
 ) {
-
-
     LazyRow(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
@@ -103,7 +119,7 @@ fun FeaturedEventCarousel(
         items(items, key = { it.id }) { itemData ->
             FeaturedEventItemCard(
                 featuredEventItem = itemData,
-                onClick = { onFeaturedItemClick(itemData.id) }
+                onClick = { onFeaturedItemClick(itemData.websiteUrl) }
             )
         }
     }
@@ -178,8 +194,3 @@ fun ArticleSection(
 }
 
 
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun HomeScreenPreview() {
-    HomeScreen()
-}

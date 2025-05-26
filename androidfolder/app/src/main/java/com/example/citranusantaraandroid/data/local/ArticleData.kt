@@ -22,8 +22,7 @@ object ArticleData {
             id = 2,
             author = "Arya Wirawan",
             title = "Keunikan Rumah Adat Tongkonan: Lebih dari Sekadar Tempat Tinggal",
-            description = """
-                Mengunjungi Tana Toraja di Sulawesi Selatan bagaikan memasuki dunia dengan arsitektur yang unik dan memukau. Salah satu ikon budayanya adalah Rumah Adat Tongkonan, sebuah struktur bangunan tradisional yang bukan hanya berfungsi sebagai tempat tinggal, tetapi juga menjadi pusat kehidupan sosial, budaya, dan ritual masyarakat Toraja. Atapnya yang melengkung menyerupai perahu terbalik menghadap ke langit, melambangkan hubungan erat antara manusia dan leluhur.
+            description = """Mengunjungi Tana Toraja di Sulawesi Selatan bagaikan memasuki dunia dengan arsitektur yang unik dan memukau. Salah satu ikon budayanya adalah Rumah Adat Tongkonan, sebuah struktur bangunan tradisional yang bukan hanya berfungsi sebagai tempat tinggal, tetapi juga menjadi pusat kehidupan sosial, budaya, dan ritual masyarakat Toraja. Atapnya yang melengkung menyerupai perahu terbalik menghadap ke langit, melambangkan hubungan erat antara manusia dan leluhur.
 
                 Lebih dari sekadar desain yang artistik, setiap elemen dalam arsitektur Tongkonan memiliki makna filosofis yang mendalam. Ukiran-ukiran kayu yang menghiasi dinding rumah menceritakan kisah-kisah leluhur, статус sosial keluarga, dan simbol-simbol kepercayaan tradisional. Jumlah и jenis украшений pada Tongkonan juga mencerminkan kedudukan dan kekayaan pemiliknya. Bagian dalam rumah dibagi menjadi beberapa ruangan dengan fungsi spesifik yang terkait dengan kehidupan keluarga dan upacara adat.
 
