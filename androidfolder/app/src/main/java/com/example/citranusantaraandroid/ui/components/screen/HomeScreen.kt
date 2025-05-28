@@ -68,8 +68,8 @@ fun HomeScreen(navController: NavController) {
             CategoryGrid(
                 items = categoryItem,
                 modifier = Modifier.padding(horizontal = 16.dp),
-                onCategoryItemClick = { categoryId ->
-                    println("eheheh ke click Item Category Id: $categoryId")
+                onCategoryItemClick = {
+                    navController.navigate(Screen.CategoryItemsScreen.route + "/${it.endpointPath}/${it.title}")
                 }
             )
             Spacer(modifier = Modifier.height(16.dp))
@@ -129,7 +129,7 @@ fun FeaturedEventCarousel(
 fun CategoryGrid(
     modifier : Modifier = Modifier,
     items: List<CategoryItem>,
-    onCategoryItemClick: (categoryId: Int) -> Unit
+    onCategoryItemClick: (categoryItem: CategoryItem) -> Unit
 ) {
     val rowsOfItems = items.chunked(2)
 
@@ -145,7 +145,7 @@ fun CategoryGrid(
                 Box(modifier = Modifier.weight(1f)) {
                     CategoryCard(
                         item = rowItems[0],
-                        onClick = {onCategoryItemClick(rowItems[0].id)}
+                        onClick = {onCategoryItemClick(rowItems[0])}
                     )
                 }
 
@@ -153,7 +153,7 @@ fun CategoryGrid(
                     Box(modifier = Modifier.weight(1f)) {
                         CategoryCard(
                             item = rowItems[1],
-                            onClick = {onCategoryItemClick(rowItems[1].id)}
+                            onClick = {onCategoryItemClick(rowItems[1])}
                         )
                     }
                 } else {

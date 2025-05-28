@@ -68,4 +68,9 @@ dependencies {
     // navigation compose
     implementation(libs.androidx.navigation.compose)
 
+    // retrofit, gson, and log interceptor
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson.converter)
+    implementation(libs.okhttp.logging.interceptor)
+
 }

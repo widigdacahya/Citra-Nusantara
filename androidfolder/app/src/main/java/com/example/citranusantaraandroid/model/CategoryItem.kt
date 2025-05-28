@@ -8,5 +8,6 @@ data class CategoryItem(
     val title: String,
     val subtitle: String,
     val color: Color,
-    val iconVector: ImageVector
+    val iconVector: ImageVector,
+    val endpointPath: String
 )

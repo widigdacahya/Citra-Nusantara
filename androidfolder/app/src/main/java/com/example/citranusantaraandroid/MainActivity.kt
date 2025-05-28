@@ -1,6 +1,7 @@
 package com.example.citranusantaraandroid
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -12,12 +13,14 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.citranusantaraandroid.ui.components.screen.ArticleDetailScreen
+import com.example.citranusantaraandroid.ui.components.screen.CategoryItemsScreen
 import com.example.citranusantaraandroid.ui.components.screen.HomeScreen
 import com.example.citranusantaraandroid.ui.components.screen.Screen
 import com.example.citranusantaraandroid.ui.theme.CitraNusantaraAndroidTheme
@@ -61,10 +64,30 @@ fun AppNavigation() {
                 nullable = false
             })
         ) { backStackEntry ->
-
             val articleId = backStackEntry.arguments?.getInt("articleId")
             ArticleDetailScreen(navController = navController, articleId = articleId)
+        }
 
+        // CategoryItemsScreen's Route
+        composable(
+            route = Screen.CategoryItemsScreen.route + "/{categoryEndpointPath}/{categoryTitle}",
+            arguments = listOf(
+                navArgument("categoryEndpointPath") { type = NavType.StringType },
+                navArgument("categoryTitle") { type = NavType.StringType }
+            )
+        ) { backStackEntry ->
+            val categoryPath = backStackEntry.arguments?.getString("categoryEndpointPath")
+            val categoryTitle = backStackEntry.arguments?.getString("categoryTitle")
+
+            if (categoryPath != null && categoryTitle != null) {
+                CategoryItemsScreen(
+                    navController = navController,
+                    categoryEndpointPath = categoryPath,
+                    categoryTitle = categoryTitle
+                )
+            } else {
+                Toast.makeText(LocalContext.current, "Invalid Category", Toast.LENGTH_SHORT).show()
+            }
         }
 
     }
