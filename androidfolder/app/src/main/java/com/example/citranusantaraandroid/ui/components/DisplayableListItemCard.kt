@@ -60,7 +60,7 @@ fun DisplayableListItemCard(
                 contentDescription = "Thumbnail of ${item.name}",
                 placeholder = painterResource(R.drawable.icons8_photo_gallery),
                 modifier = Modifier
-                    .height(160.dp)
+                    .height(180.dp)
                     .fillMaxWidth(),
                 contentScale = ContentScale.Crop
             )
@@ -109,8 +109,8 @@ fun DisplayableListItemCard(
                     Text(
                         text = item.description,
                         style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        maxLines = 3,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
+                        maxLines = 2,
                         overflow = TextOverflow.Ellipsis
                     )
                 }

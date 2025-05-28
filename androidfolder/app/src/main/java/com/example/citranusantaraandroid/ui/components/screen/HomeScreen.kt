@@ -69,7 +69,15 @@ fun HomeScreen(navController: NavController) {
                 items = categoryItem,
                 modifier = Modifier.padding(horizontal = 16.dp),
                 onCategoryItemClick = {
-                    navController.navigate(Screen.CategoryItemsScreen.route + "/${it.endpointPath}/${it.title}")
+
+                    if (it.endpointPath.isNotBlank()) {
+                        navController.navigate(Screen.CategoryItemsScreen.route + "/${it.endpointPath}/${it.title}")
+                    } else {
+                        // for "soon" menu
+                        Toast.makeText(context, "Coming soon", Toast.LENGTH_SHORT).show()
+                    }
+
+
                 }
             )
             Spacer(modifier = Modifier.height(16.dp))
